@@ -98,28 +98,3 @@ b = 410583637251521...
 p = 115792089210356248762697446949407573530...
 ```
 
-##  Evaluation Criteria (As per assignment PDF)
-
-| Assignment         | Submission Weight                                        |
-| ------------------ | -------------------------------------------------------- |
-| PA-1 & PA-2        | 50% for submission                                       |
-| Viva / Code Review | 50% based on explanation and modularity                  |
-| **Bonus**          | If PA-1 formula outperforms Willans’ → PA-2 not required |
-
----
-
-##  Final Notes for Viva / Demonstration
-
-You should be prepared to explain:
-
-| Topic                   | Why it matters                     |
-| ----------------------- | ---------------------------------- |
-| Wilson’s Theorem        | Basis of prime detection           |
-| Rosser–Schoenfeld Bound | Ensures termination                |
-| π(x) Prime counting     | Converts checking → computing      |
-| ECC                     | Used in modern authentication      |
-| GF(p)                   | Finite field arithmetic efficiency |
-
----
-
-If you'd like, I can **add a small theory appendix** inside README explaining **RSA ↔ prime generation ↔ ECC security** — useful for viva answers. Just tell me 👍
