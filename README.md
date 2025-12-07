@@ -4,7 +4,7 @@ Below is an improved **README.md**, rewritten to align directly with the descrip
 
 ---
 
-# 📌 Programming Assignment – **Cryptography**
+# Programming Assignment – **Cryptography**
 
 ## **PA-1 – Willans’ Formula & Prime Computation**
 
@@ -12,7 +12,7 @@ Below is an improved **README.md**, rewritten to align directly with the descrip
 
 ---
 
-## 🔷 **Course Context**
+## **Course Context**
 
 In the cryptography course, a major focus was understanding the RSA cryptosystem and how its security depends fundamentally on the difficulty of **prime factorization**. This naturally leads to the study of **primality testing**, **prime detectors**, and ultimately the mathematical curiosity — **can a prime detector be transformed into a prime computer?**
 
@@ -40,10 +40,15 @@ This repository attempts exactly that.
 * A recursively memoized prime-counting function π(x) keeps the solution efficient
 * Rosser–Schoenfeld upper bound ensures the algorithm stops at or before the nth prime
 * The formula computes:
-  [
-  \text{nth prime} = 2 + \sum_{i=2}^{U}
-  \bigg\lfloor \left(\frac{n}{\pi(i)+1}\right)^{1/n} \bigg\rfloor
-  ]
+  nth_prime = 2 + ∑ (from i = 2 to U)  floor( ( n / ( π(i) + 1 ) ) ^ (1/n) )
+| Symbol    | Meaning                                  |
+| --------- | ---------------------------------------- |
+| `n`       | The target prime index                   |
+| `U`       | Rosser–Schoenfeld upper bound            |
+| `π(i)`    | Number of primes less than or equal to i |
+| `floor()` | Integer floor function                   |
+
+
 
 ### **Time Complexity Discussion**
 
@@ -69,7 +74,7 @@ Enter n to find nth prime: 20
 
 ---
 
-## 🔹 PA-2 — **Extract ECC Curve Equation & Field Characteristic (Python)**
+##  PA-2 — **Extract ECC Curve Equation & Field Characteristic (Python)**
 
 ### **Objective**
 
@@ -118,21 +123,7 @@ b = 410583637251521...
 p = 115792089210356248762697446949407573530...
 ```
 
----
-
-## 📁 Repository Structure
-
-```
-├── PA-1
-│   └── pa1_prime_formula.py
-├── PA-2
-│   └── pa2_extract_ecc.py
-└── README.md
-```
-
----
-
-## 📌 Evaluation Criteria (As per assignment PDF)
+##  Evaluation Criteria (As per assignment PDF)
 
 | Assignment         | Submission Weight                                        |
 | ------------------ | -------------------------------------------------------- |
@@ -142,7 +133,7 @@ p = 115792089210356248762697446949407573530...
 
 ---
 
-## 🧠 Final Notes for Viva / Demonstration
+##  Final Notes for Viva / Demonstration
 
 You should be prepared to explain:
 
