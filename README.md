@@ -1,31 +1,6 @@
 # Crypto_Prime_ECC
 
-Below is an improved **README.md**, rewritten to align directly with the description, goals, motivation, and evaluation criteria given in **your assignment PDF** .
-
----
-
-# Programming Assignment – **Cryptography**
-
-## **PA-1 – Willans’ Formula & Prime Computation**
-
-## **PA-2 – Elliptic Curve Cryptography Certificate Analysis**
-
----
-
-## **Course Context**
-
-In the cryptography course, a major focus was understanding the RSA cryptosystem and how its security depends fundamentally on the difficulty of **prime factorization**. This naturally leads to the study of **primality testing**, **prime detectors**, and ultimately the mathematical curiosity — **can a prime detector be transformed into a prime computer?**
-
-During the 1960s, researchers explored formulae capable of generating the **nth prime number**. One of these artificially designed approaches, **Willans' Formula**, applies **Wilson’s Theorem** for prime detection and embeds it inside a computational expression to obtain primes sequentially. Although these formulas are not practical for large-scale use, they introduce an important conceptual question:
-
-> **Can we systematically turn a primality-testing mechanism into a prime-computing mechanism?**
-> (i.e., Input: `n`, Output: nth prime)
-
-This repository attempts exactly that.
-
----
-
-## 🔹 PA-1 — **Nth Prime Number Using a Formula (Python)**
+##  PA-1 — **Nth Prime Number Using a Formula (Python)**
 
 ### **Objective**
 
