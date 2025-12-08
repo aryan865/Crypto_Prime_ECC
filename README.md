@@ -40,7 +40,7 @@ While this method is still slower than modern sieves, it **successfully demonstr
 ### **Execution**
 
 ```bash
-python pa1_prime_formula.py
+python pa1.py
 ```
 
 Provide an input `n`:
@@ -90,7 +90,7 @@ pip install cryptography tinyec
 Run the script:
 
 ```bash
-python pa2_extract_ecc.py
+python pa2.py
 ```
 
 Example output:
