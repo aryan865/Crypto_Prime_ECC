@@ -4,9 +4,11 @@
 
 ### **Objective**
 
-✔ Construct a formula that transforms a prime detector into a prime computer
-✔ Implement and test the formula
-✔ Analyze and compare time complexity with Willans’ formula
+Construct a formula that transforms a prime detector into a prime computer
+
+Implement and test the formula
+
+Analyze and compare time complexity with Willans’ formula
 
 ### **Approach**
 
@@ -16,6 +18,7 @@
 * Rosser–Schoenfeld upper bound ensures the algorithm stops at or before the nth prime
 * The formula computes:
   nth_prime = 2 + ∑ (from i = 2 to U)  floor( ( n / ( π(i) + 1 ) ) ^ (1/n) )
+  
 | Symbol    | Meaning                                  |
 | --------- | ---------------------------------------- |
 | `n`       | The target prime index                   |
@@ -53,9 +56,11 @@ Enter n to find nth prime: 20
 
 ### **Objective**
 
-✔ Export and analyze a live website’s SSL certificate
-✔ Extract the **elliptic curve equation parameters**
-✔ Extract the **characteristic of the finite field**
+Export and analyze a live website’s SSL certificate
+
+Extract the **elliptic curve equation parameters**
+
+Extract the **characteristic of the finite field**
 
 This relates to **EC-DSA digital signatures**, widely deployed in modern authentication (HTTPS certificates, identity verification, etc.) — as referenced in the assignment description .
 
